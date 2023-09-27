@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">Mi Botón</item>
+        <item name="android:textColor">#FDFDFD</item>
+    </style>
+
+    <style name="txtTitle">
+        <item name="android:textSize">26sp</item> 
+        <item name="android:textColor">#B92BE1</item> 
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="borderless">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#AE0C0C</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+
+</resources>

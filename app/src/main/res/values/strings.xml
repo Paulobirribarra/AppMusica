@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">AppMusica</string>
+    <string name="btnLogin">Iniciar</string>
+    <string name="btnBack">Volver Inicio</string>
+    <string name="img1">Björk Utopía 2017</string>
+    <string name="img2">Kamelot - Awakening 2023</string>
+    <string name="img3">Tash Sultana - Flow State 2018</string>
+    <string name="img4">San Cisco - San Cisco 2012</string>
+    <string name="img5">Prehistöricos - Nuestro día vendrá 2014</string>
+    <string name="img6">Low Roar - Low Roar 2011</string>
+    <string name="txtLogin">¡Bienvenido a Mi Música!</string>
+    <string name="txtRecycler">¡Bienvenido a Mi Música!</string>
+    <string name="btnBackMain">Salir</string>
+    <string name="txtMenu">Selecciona una vista</string>
+    <string name="btnDisc">Scroll</string>
+    <string name="btnRadio">Radio</string>
+    <string name="btnSpiner">Spiner</string>
+    <string name="btnCheck">Check</string>
+    <string name="btnRecycler">Recycler</string>
+    <string name="btnExtra">Extra</string>
+    <string name="txtRadio">Selecciona una opción</string>
+    <string name="txtRadioSalida"></string>
+    <string name="btnRadioSalida">Volver al menú</string>
+    <string name="idRadio1">i like it</string>
+    <string name="idRadio2">i dont like it</string>
+    <string name="btnValidar">Show Me now</string>
+    <string name="txtSpinner">Escoge un estilo musical</string>
+    <string name="txtSalidaSpinner"></string>
+    <string name="btnValidarSpinner">Validar</string>
+    <string name="btnSalir">Menú</string>
+    <string name="txtCheckBox">Selecciona tus preferencias</string>
+
+    <string name="chk1">Jazz de Monstruos</string>
+    <string name="chk2">Ska de Circo</string>
+    <string name="chk3">Los Zombi Jazzeros</string>
+    <string name="chk4">Los Piratas del Reggae</string>
+    <string name="chk5">Trombón de Zombi</string>
+    <string name="chk6">Saxofón de Alienígena</string>
+    <string name="chk7">Un Circo en el Espacio</string>
+    <string name="chk8">Una Playa de Piratas</string>
+    <string name="txtCheckSalida"></string>
+    <string name="btnCheckValidar">Validar</string>
+    <string name="btnCheckMenu">Menú</string>
+
+    <string name="btnLimpiar">Limpiar</string>
+
+
+</resources>
