@@ -16,7 +16,10 @@
     <string name="btnRadio">Radio</string>
     <string name="btnSpiner">Spiner</string>
     <string name="btnCheck">Check</string>
+
     <string name="btnRecycler">Recycler</string>
+    <string name="btnVolverMenu">Volver al Menú</string>
+
     <string name="btnExtra">Extra</string>
     <string name="txtRadio">Selecciona una opción</string>
     <string name="txtRadioSalida"></string>
@@ -43,6 +46,9 @@
     <string name="btnCheckMenu">Menú</string>
 
     <string name="btnLimpiar">Limpiar</string>
+    <string name="txtCalificanos">Califícanos</string>
+    <string name="txtCalificanosSalida"></string>
+    <string name="btnMenuAbout">Volver al Menú</string>
 
 
 </resources>

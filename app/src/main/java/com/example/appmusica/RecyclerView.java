@@ -1,6 +1,8 @@
 package com.example.appmusica;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -29,5 +31,11 @@ public class RecyclerView extends AppCompatActivity{
         recyclerView.setAdapter(adapter);
 
     }
+    public void volverAlMenu(View view) {
+        Intent volver = new Intent(this, TableLayout.class);
+        startActivity(volver);
+    }
+
+
 
 }

@@ -4,6 +4,57 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/fondo"
     tools:context=".About">
 
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:background="#68E4EA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCalificanos"
+        app:layout_constraintVertical_bias="0.273" />
+
+    <TextView
+        android:id="@+id/txtCalificanos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/txtTitle"
+        android:layout_marginTop="56dp"
+        android:text="@string/txtCalificanos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtCalificanosSalida"
+        android:layout_width="241dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="316dp"
+        android:gravity="center"
+        android:text="@string/txtCalificanosSalida"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnMenuAbout"
+        android:layout_width="wrap_content"
+        android:onClick="goMenu"
+        android:layout_height="wrap_content"
+        android:text="@string/btnMenuAbout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCalificanosSalida"
+        app:layout_constraintVertical_bias="0.666" />
 </androidx.constraintlayout.widget.ConstraintLayout>

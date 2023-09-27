@@ -43,5 +43,9 @@ public class TableLayout extends AppCompatActivity {
         Intent gorecycler = new Intent(this, RecyclerView.class);
         startActivity(gorecycler);
     }
+    public void goAbout(View view) {
+        Intent goabout = new Intent(this, About.class);
+        startActivity(goabout);
+    }
 
 }
