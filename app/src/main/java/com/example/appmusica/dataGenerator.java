@@ -8,7 +8,7 @@ public class dataGenerator {
         List<ListElement> elements = new ArrayList<>();
 
         elements = new ArrayList<>();
-        elements.add(new ListElement("#FF0000","Satiago","Puerto Montt","Desconectado"));
+        elements.add(new ListElement("#FF0000","Santiago","Puerto Montt","Desconectado"));
         elements.add(new ListElement("#00FF00","Roberto","Temuco","Activo"));
         elements.add(new ListElement("#0000FF","Rigoberto","Copiapó","Ausente"));
         elements.add(new ListElement("#FFFF00","Guadalajara","Talca","Visible"));

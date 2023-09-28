@@ -1,115 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#BA00BCD4"
+    android:orientation="vertical"
     tools:context=".CheckBoxView">
 
     <TextView
         android:id="@+id/txtCheckBox"
+        android:layout_marginVertical="50dp"
         style="@style/txtTitle"
-        android:layout_width="306dp"
-        android:layout_height="0dp"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="30dp"
         android:layout_marginTop="16dp"
-        android:layout_marginBottom="98dp"
+        android:layout_marginBottom="58dp"
         android:text="@string/txtCheckBox"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/chk3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="20dp" />
 
-    <CheckBox
-        android:id="@+id/chk1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="28dp"
-        android:text="@string/chk1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtCheckBox" />
-
-    <CheckBox
-        android:id="@+id/chk2"
-        android:layout_width="163dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="32dp"
-        android:text="@string/chk2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtCheckBox" />
-
-    <CheckBox
-        android:id="@+id/chk3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="13dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginBottom="27dp"
-        android:text="@string/chk3"
-        app:layout_constraintBottom_toTopOf="@+id/chk5"
-        app:layout_constraintEnd_toStartOf="@+id/chk4"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtCheckBox" />
-
-    <CheckBox
-        android:id="@+id/chk4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="152dp"
-        android:layout_marginBottom="187dp"
-        android:text="@string/chk4"
-        app:layout_constraintBottom_toTopOf="@+id/txtCheckSalida"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/chk3"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <CheckBox
-        android:id="@+id/chk5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginEnd="13dp"
-        android:layout_marginBottom="29dp"
-        android:text="@string/chk5"
-        app:layout_constraintBottom_toTopOf="@+id/chk7"
-        app:layout_constraintEnd_toStartOf="@+id/chk6"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/chk3" />
-
-    <CheckBox
-        android:id="@+id/chk6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/chk6"
-        app:layout_constraintBaseline_toBaselineOf="@+id/chk5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/chk5" />
-
-    <CheckBox
-        android:id="@+id/chk7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
-        android:layout_marginBottom="379dp"
-        android:text="@string/chk7"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/chk8"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/chk5" />
-
-    <CheckBox
-        android:id="@+id/chk8"
-        android:layout_width="wrap_content"
+    <GridLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
-        android:layout_marginEnd="11dp"
-        android:text="@string/chk8"
+        android:layout_marginStart="10dp"
+        android:columnCount="2"
+        android:rowCount="4">
+
+        <CheckBox
+            android:id="@+id/chk1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chk1" />
+
+        <CheckBox
+            android:id="@+id/chk2"
+            android:layout_width="163dp"
+            android:layout_height="49dp"
+            android:text="@string/chk2" />
+
+        <CheckBox
+            android:id="@+id/chk3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chk3" />
+
+        <CheckBox
+            android:id="@+id/chk4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chk4" />
+
+        <CheckBox
+            android:id="@+id/chk5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chk5" />
+
+        <CheckBox
+            android:id="@+id/chk6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chk6" />
+
+        <CheckBox
+            android:id="@+id/chk7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chk7" />
+
+        <CheckBox
+            android:id="@+id/chk8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chk8" />
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/txtCheckSalida"
+        android:layout_width="363dp"
+        android:layout_height="152dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="28dp"
+        android:gravity="center"
+        android:text="@string/txtCheckSalida" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/chk7"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/chk7"
-        app:layout_constraintTop_toBottomOf="@+id/chk6" />
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btnCheckValidar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnCheckValidar"
+            app:layout_constraintStart_toEndOf="@+id/btnCheckMenu"
+            android:layout_marginHorizontal="8dp" />
+
+        <Button
+            android:id="@+id/btnLimpiar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+                android:text="@string/btnLimpiar" />
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/btnCheckMenu"
@@ -117,47 +120,8 @@
         android:layout_height="wrap_content"
         android:text="@string/btnCheckMenu"
         android:onClick="goMenu"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCheckValidar"
-        app:layout_constraintVertical_bias="0.507" />
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp" />
 
-    <Button
-        android:id="@+id/btnCheckValidar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="136dp"
-        android:text="@string/btnCheckValidar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.245"
-        app:layout_constraintStart_toStartOf="parent" />
 
-    <TextView
-        android:id="@+id/txtCheckSalida"
-        android:layout_width="363dp"
-        android:layout_height="152dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="225dp"
-        android:text="@string/txtCheckSalida"
-        android:gravity="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/chk4" />
-
-    <Button
-        android:id="@+id/btnLimpiar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="136dp"
-        android:text="@string/btnLimpiar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.476"
-        app:layout_constraintStart_toEndOf="@+id/btnCheckValidar" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
